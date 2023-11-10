@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
+    "prepare": "husky install",
     "pure-lint-cli-scan": "pure-lint-cli scan",
     "pure-lint-cli-fix": "pure-lint-cli fix"
   },
@@ -44,9 +45,10 @@
     "@vitejs/plugin-vue": "^4.4.1",
     "@vitejs/plugin-vue-jsx": "^3.0.2",
     "@vue/tsconfig": "^0.4.0",
+    "commitlint-config-pure": "^1.0.8",
     "cross-env": "^7.0.3",
     "dayjs": "^1.11.10",
-    "husky": "^3.1.0",
+    "husky": "^8.0.3",
     "less": "^4.2.0",
     "pure-lint-cli": "^1.0.6",
     "rimraf": "^5.0.5",

@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['pure-commitlint-config'],
+  extends: [require.resolve('commitlint-config-pure')],
 };
